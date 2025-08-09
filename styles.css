@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0a1b2b;
+    color: white;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-panel, .right-panel {
+    padding: 20px;
+}
+
+.left-panel {
+    width: 50%;
+    border-right: 2px solid #1a2d3d;
+}
+
+.right-panel {
+    width: 50%;
+}
+
+h2, h3 {
+    color: #f7931a;
+}
+
+.upload-section label {
+    display: block;
+    background-color: #f7931a;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.upload-section input {
+    display: none;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    background-color: #14273b;
+    color: white;
+    border: 1px solid #f7931a;
+    padding: 10px;
+    border-radius: 5px;
+    resize: none;
+    font-size: 14px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: #14273b;
+    border: 1px solid #f7931a;
+    color: white;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f7931a;
+    border: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff9f2d;
+}
+
+.output-section {
+    margin-top: 20px;
+}
+
+.testcase-btn {
+    display: inline-block;
+    background-color: #14273b;
+    border: 1px solid #f7931a;
+    padding: 6px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.testcase-btn:hover {
+    background-color: #f7931a;
+    color: black;
+}

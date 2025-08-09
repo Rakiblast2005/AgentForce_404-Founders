@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Test Case Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Left Panel -->
+        <div class="left-panel">
+            <h2>AI Test Case Generator</h2>
+
+            <div class="upload-section">
+                <label for="fileUpload">Upload File</label>
+                <input type="file" id="fileUpload" />
+            </div>
+
+            <textarea id="explanation" placeholder="Enter explanation here..."></textarea>
+        </div>
+
+        <!-- Right Panel -->
+        <div class="right-panel">
+            <h3>Select Programming Language</h3>
+            <select id="languageSelect">
+                <option value="">-- Select --</option>
+                <option>Python</option>
+                <option>Java</option>
+                <option>C++</option>
+                <option>JavaScript</option>
+                <option>Go</option>
+            </select>
+
+            <button id="generateBtn">Generate Code</button>
+
+            <div class="output-section">
+                <h3>Generated Test Cases</h3>
+                <div id="testcaseContainer"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
