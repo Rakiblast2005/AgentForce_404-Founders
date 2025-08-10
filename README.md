@@ -24,5 +24,6 @@ An intelligent developer agent that analyzes code and generates comprehensive te
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/testsmith.git
+   git clone https://github.com/Rakiblast2005/AgentForce_404-Founders
    cd testsmith
+
